@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 import sys
+
+
 def printargv():
     x = len(sys.argv)
     if x == 1:
@@ -12,6 +14,6 @@ def printargv():
         for i in range(1, x):
             print('{:d}: {:s}'.format(i, sys.argv[i]))
 
+
 if __name__ == "__main__":
     printargv()
-
